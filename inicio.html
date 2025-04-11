@@ -1,114 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
     <title> INICIO </title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
 </head>
 <body  class="body" background="imagenes/fondo12.jpg">
-    <div class="barra_de_navegacion"> 
-        <header>
-            <div class="banner_inicio"  >
-                <img src="imagenes/bannerInicio.jpg">
-   
-            </div>
-
-        </header>
-
-        <main>
-            <nav>
-                <img src="imagenes/logo.jpg" > </a>
-                
-                <div class="botones_barra_de_navegacion"> 
-                    <button type="button" class="ov-btn-slide-left"> <a href="inicio.html"> <span>inicio </span></a></button>
-                    <button type="button" class="ov-btn-slide-left"> <a href="contacto.html"> <span>contacto </span></a></button>
-                    <button type="button" class="ov-btn-slide-left"> <a href="login.html"> <span>login </span> </a></button> 
-                    <button type="button" class="ov-btn-slide-left"> <a href="nosotros.html"> <span>nosotros </span> </a></button>  
-                </div>
-            </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 
-            <div id="paisajes">
-                <div>
-                    <img src="imagenes/paisaje1.jpg" class="imagen_pasaijes">
+    <div class="container-fluid">
+        <div class="row"> 
+            <div class="col"> 
+                <div id="carouselExampleIndicators" class="carousel slide" >
 
-                </div>
-
-                <div>
-                    <img src="imagenes/paisaje2.jpg" class="imagen_pasaijes">
-
-                </div>
-                <div>
-                    <img src="imagenes/paisaje3.jpg" class="imagen_pasaijes">
-
-                </div>
-                <div>
-                    <img src="imagenes/paisaje4.jpg" class="imagen_pasaijes">
-                </div>
-            </div>
-
-            <div class="abajo_inicio">
-
-                <img  id="banner2"  src="imagenes/paisaje5.jpg">
-
-                <p> 💼 Conectamos talento con oportunidades
-                    En nuestra agencia de trabajos, creemos en el poder de las personas para transformar empresas. Nos dedicamos a ayudarte a encontrar el empleo ideal, ya sea tu primer trabajo o el siguiente paso en tu carrera. Conectamos candidatos con empresas que valoran el talento, ofreciendo un servicio confiable, ágil y personalizado. 🌟📄</p>
-            </div>
-
-
-                
-            <div>
-                <video controls class="banner_video">
-                    <source src="videos/videoagencia.mp4" type="video/mp4" id="video_abajo">
-                  </video>
-            
-            </div>
-
-            <div class="parrafo_imagen2">
-                <p>🚀 Impulsa tu futuro laboral con nosotros
-                    Somos una agencia comprometida con tu crecimiento profesional. Te acompañamos en cada etapa del proceso, desde la búsqueda hasta la incorporación al trabajo que se ajusta a tus habilidades y aspiraciones. Nuestro objetivo es ayudarte a alcanzar el éxito que mereces. 💼🌟</p>
-                
-                <img  id="banner2_i_p"  src="imagenes/abajoContacto3.jpg">
-            </div>  
-
-        </main>
-
-        <footer>
-                <div class="barra_redes"> 
-                    <div class="informacion_contacto">
-                        <h1>  ✈🌍 INFORMACION GENERAL 🌍✈ </h1>
-                        <ul>
-                            <li> <a href="https://www.facebook.com" target=_blank> SOBRE NOSOTROS </a> </li>
-                            <li> <a href="https://www.whatsapp.com/" target=_blank> PREGUNTAS FRECUENTES (FAQ) </a> </li>
-                            <li> <a href="https://www.instagram.com" target=_blank> TESTIMONIOS </a> </li>
-                        </ul>
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-
-                    <div class="informacion_contacto"> 
-                        <h1>  ✈🌍 SERVICIOS 🌍✈ </h1>
-                        <ul>
-                            <li> <a href="https://www.facebook.com" target=_blank> DESTINOS </a> </li>
-                            <li> <a href="https://www.whatsapp.com/" target=_blank> PAQUETES Y OFERTAS </a> </li>
-                            <li> <a href="https://www.instagram.com" target=_blank> RESERVAS </a> </li>
-                        </ul>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagenes/paisaje.jpg" class="d-block w-100" alt="...">
                     </div>
-
-                    <div class="Logo_Redes">
-                        <ul>     
-                            <a> <img src="imagenes/2021_Facebook_icon.svg.png"  > </a> <br>
-                            <a> <img src="imagenes/pngtree-whatsapp-icon-png-image_3584844.jpg"  > </a><br>
-                            <a> <img src="imagenes/icono-instagram_768467-672.avif"  > </a>
-                        </ul>  
+                    <div class="carousel-item">
+                        <img src="imagenes/paisaje5.jpg" class="d-block w-100" alt="...">
                     </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/paisaje3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
+            </div>
+        </div>
+    </div>
 
-                <div class="otakar_agency">
-                    <h4 > OTAKAR AGENCY</h4> 
-                </div>
+    <br>    <br>    <br>
 
-        </footer>
+    <div class="container-fluid card_de_abajo d-flex gap-3">
+        <div class="card" style="width: 20rem;">
+            <img src="imagenes/paisaje.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img src="imagenes/paisaje.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
     
-    </div> 
+
+    
+
+    
+    
 
 </body>
 </html>

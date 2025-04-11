@@ -4,6 +4,8 @@
 <head>
     <title> CONTACTO </title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
 </head>
 <body  class="body" background="imagenes/fondo12.jpg">
     <div class="barra_de_navegacion"> 
@@ -58,14 +60,20 @@
                     </select> <br><br>
                 </div>
                 
-                <div class="labels_formulario_contacto">
+                <div class="labels_formulario_contacto ">
                     <label for="sexo"> Sexo: </label><br>
-                    <label for="masculino"> masculino </label>
-                    <input type="checkbox" name="masculino" id="masculino">  <br>
-                    <label for="femenino"> femenino </label>
-                    <input type="checkbox" name="femenino" id="femenino">  <br>
-                    <label for="otro"> otro </label>
-                    <input type="checkbox" name="otro" id="otro">  <br><br>
+                    <div class="form-check">
+                        <label for="masculino" class="form-check-label"> masculino </label>
+                        <input type="checkbox" name="masculino" id="masculino" class="form-check-input">  <br>
+                    </div>
+                    <div class="form-check">
+                        <label for="femenino" class="form-check-label"> femenino </label>
+                        <input type="checkbox" name="femenino" id="femenino" class="form-check-input">  <br>
+                    </div>
+                    <div class="form-check">
+                        <label for="otro" class="form-check-label"> otro </label>
+                        <input type="checkbox" name="otro" id="otro" class="form-check-input">  <br><br>
+                    </div>
 
                     <label for="fecha"> Fecha de nacimiento: </label>
                     <input type="datetime-local" name="fecha" id="fecha"> <br><br>
