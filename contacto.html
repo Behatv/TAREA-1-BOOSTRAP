@@ -8,27 +8,78 @@
 
 </head>
 <body  class="body" background="imagenes/fondo12.jpg">
-    <div class="barra_de_navegacion"> 
-        <header>
-            <nav>
-                <img src="imagenes/logo.jpg" > </a> </td>
-                
-                <div class="botones_barra_de_navegacion"> 
-                    <button type="button" class="ov-btn-slide-left"> <a href="inicio.html"> <span>inicio </span></a></button>
-                    <button type="button" class="ov-btn-slide-left"> <a href="contacto.html"> <span>contacto </span></a></button>
-                    <button type="button" class="ov-btn-slide-left"> <a href="login.html"> <span>login </span> </a></button> 
-                    <button type="button" class="ov-btn-slide-left"> <a href="nosotros.html"> <span>nosotros </span> </a></button>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <div class="container-fluid">
+        <div class="row"> 
+            <div class="col-12" >
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <a class="navbar-brand"><img src="imagenes/logo.jpg"> </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="inicio.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contacto.html">CONTACTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="login.html">LOGIN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="nosotros.html">NOSOTROS</a>
+                        </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row"> 
+            <div class="col"> 
+                <div id="carouselExampleIndicators" class="carousel slide" >
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagenes/paisaje.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/paisaje5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/paisaje3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-            </nav>
-        </header>
-
-        <br><br> <br> 
-
+            </div>
+        </div>
+    </div>
+    
         <main>
-
              
-            <img  class="banner"  src="imagenes/contactoimagenarriba1.jpg">
-   
 
             <form id="formulario_contacto">
                 <div class="labels_formulario_contacto">              
@@ -116,46 +167,56 @@
                     <input id="enviar_formulario" type="submit" value="Enviar">
                 </div>
                                                           
-            </form>              
+            </form>
+
+            <div class="container-fluid">
+                <div class="barra_redes_nueva">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h1> ✈🌍 INFORMACION GENERAL 🌍✈ </h1>
+                            <ul class="list-group list-group-flush"> <!-- grupo de listas--> 
+                                <li class="list-group-item"><a href="https://www.facebook.com" target="_blank">SOBRE NOSOTROS</a></li>
+                                <li class="list-group-item"><a href="https://www.whatsapp.com/" target="_blank">PREGUNTAS FRECUENTES (FAQ)</a></li>
+                                <li class="list-group-item"><a href="https://www.instagram.com" target="_blank">TESTIMONIOS</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <h1> ✈🌍 SERVICIOS 🌍✈ </h1>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><a href="https://www.facebook.com" target="_blank">DESTINOS</a></li>
+                                <li class="list-group-item"><a href="https://www.whatsapp.com/" target="_blank">PAQUETES Y OFERTAS</a></li>
+                                <li class="list-group-item"><a href="https://www.instagram.com" target="_blank">RESERVAS</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col-md-2">
+                            <div class="logo_redes1">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><a href="https://www.facebook.com" target="_blank"><img src="imagenes/2021_Facebook_icon.svg.png" alt="Facebook"></a></li>
+                                    <li class="list-group-item"><a href="https://www.whatsapp.com" target="_blank"><img src="imagenes/pngtree-whatsapp-icon-png-image_3584844.jpg" alt="WhatsApp"></a></li>
+                                    <li class="list-group-item"><a href="https://www.instagram.com" target="_blank"><img src="imagenes/icono-instagram_768467-672.avif" alt="Instagram"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container-fluid">
+                <div class="nombre_empresa_abajo">
+                    <div class="row">
+                        <h1> OTAKAR AGENCY </h1>
+    
+                    </div>
+                </div>
+    
+            </div> 
 
                 
         </main>
         <br><br>
-        <footer>
-            <div class="barra_redes"> 
-                <div class="informacion_contacto">
-                    <h1>  ✈🌍 INFORMACION GENERAL 🌍✈ </h1>
-                    <ul>
-                        <li> <a href="https://www.facebook.com" target=_blank> SOBRE NOSOTROS </a> </li>
-                        <li> <a href="https://www.whatsapp.com/" target=_blank> PREGUNTAS FRECUENTES (FAQ) </a> </li>
-                        <li> <a href="https://www.instagram.com" target=_blank> TESTIMONIOS </a> </li>
-                    </ul>
-                </div>
-
-                <div class="informacion_contacto"> 
-                    <h1>  ✈🌍 SERVICIOS 🌍✈ </h1>
-                    <ul>
-                        <li> <a href="https://www.facebook.com" target=_blank> DESTINOS </a> </li>
-                        <li> <a href="https://www.whatsapp.com/" target=_blank> PAQUETES Y OFERTAS </a> </li>
-                        <li> <a href="https://www.instagram.com" target=_blank> RESERVAS </a> </li>
-                    </ul>
-                </div>
-
-                <div class="Logo_Redes">
-                    <ul>     
-                        <a> <img src="imagenes/2021_Facebook_icon.svg.png"  > </a> <br>
-                        <a> <img src="imagenes/pngtree-whatsapp-icon-png-image_3584844.jpg"  > </a><br>
-                        <a> <img src="imagenes/icono-instagram_768467-672.avif"  > </a>
-                    </ul>  
-                </div>
-            </div>
-
-            <div class="otakar_agency">
-                <h4 > OTAKAR AGENCY</h4> 
-            </div>
-
-    </footer>
-
+        
 
 </body>
 </html>

@@ -73,11 +73,12 @@ body{
     border: 2px solid #000000;
     margin: auto;
     margin-top: 80px;
-    background-color: rgb(243, 241, 237);
+
 }
 
 .barra_redes_nueva h1{
     font-size: 30px;
+    color: #003366
 }
 
 .col-md-5{
@@ -94,6 +95,7 @@ body{
 .col-md-5 a{
     text-decoration: none; /* subrayado al link */
     font-size: 20px;
+    color: #003366
 }
 
 .col-md-4{
@@ -109,6 +111,7 @@ body{
 .col-md-4 a{
     text-decoration: none; 
     font-size: 20px;
+    color: #003366
 }
 
 .col-md-2{
@@ -133,7 +136,7 @@ body{
     border: 2px solid #000000;
     margin: auto;
     margin-top: 20px;
-    background-color: rgb(243, 241, 237);
+
 }
 .nombre_empresa_abajo h1{
     font-size: 25px;
