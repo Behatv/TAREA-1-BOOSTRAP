@@ -216,6 +216,30 @@ button {
   }
    
 /* PAGINA DE CONTACTO */
+
+.formulario_configuracion{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #003366;
+    font-size: 20px;
+    margin-top: 80px;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+    
+}
+.sexo_tamaño{
+    font-size: 22px;
+}
+
+.boton_enviar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
  
 
 /* PAGINA DE LOGIN */

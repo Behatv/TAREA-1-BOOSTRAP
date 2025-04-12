@@ -77,82 +77,92 @@
             </div>
         </div>
     </div>
+    
 
-    <div class="container-md">
-        <div class="row">
-            <div class="col">
-                <form>
-                    <div class="row">
-                        <div class="col">
-                          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    <div class="formulario_configuracion">
+        <div class="container-md">
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                            </div>
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                            </div>
                         </div>
-                        <div class="col">
-                          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        <div class="row">
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="Numero de Telefono" aria-label="First name">
+                            </div>
                         </div>
-                    </div>
-              
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                    </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
+                  
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Correo Electronico:</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+                        </div>
+    
+    
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Usuario" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>                                                                       
+                          <div class="input-group">
+                            <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                              <option selected> Elegir...</option>
+                              <option value="1">Quiero cotizar un viaje</option>
+                              <option value="2">Necesito más información</option>
+                              <option value="3">Deseo reservar ahora</option>
+                            </select>
+    
+                            <button class="btn btn-outline-secondary" type="button">Confirmar</button>
+                          </div>
+                        <div class="sexo_tamaño">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Sexo:</label>
+                            </div>
 
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">@</span>
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                      </div>
-                      
-                      <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <span class="input-group-text" id="basic-addon2">@example.com</span>
-                      </div>
-                      
-
-                      
-                      <div class="input-group mb-3">
-                        <span class="input-group-text">$</span>
-                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                        <span class="input-group-text">.00</span>
-                      </div>
-                      
-                      <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username">
-                        <span class="input-group-text">@</span>
-                        <input type="text" class="form-control" placeholder="Server" aria-label="Server">
-                      </div>
-                      
-                      
-                      <div class="input-group">
-                        <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
-                          <option selected>Choose...</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                        <button class="btn btn-outline-secondary" type="button">Button</button>
-                      </div>
-                      <div class="input-group">
-                        <span class="input-group-text"> Comentario: </span>
-                        <textarea class="form-control" aria-label="With textarea"></textarea>
-                      </div>
-
-                      <div class="input-group">
-                        <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
-                        <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Button</button>
-                      </div>
-                      <button type="submit" class="btn btn-primary">Submit</button>
-
-                      
-                </form>
-
-
+                        </div>
+    
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                            Masculino
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                            Femenino
+                            </label>
+    
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                              Otro
+                            </label>                     
+                          </div>
+                          <div class="input-group">
+                            <span class="input-group-text"> Comentario: </span>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                          </div>
+    
+                          <div class="input-group">
+                            <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                            <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Confirmar</button>
+                          </div>
+                          <div class="boton_enviar">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                          </div>                     
+                    </form>
+                </div>
             </div>
         </div>
+
     </div>
+
     
     
 
