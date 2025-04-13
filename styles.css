@@ -21,7 +21,6 @@ body{
 
 .carousel-item img {
     height: 400px;
-    object-fit: cover;
   }
 
 .container-fluid img{
@@ -58,9 +57,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
     margin: 0;
-    
 }
 
 
@@ -140,7 +137,6 @@ body{
 }
 .nombre_empresa_abajo h1{
     font-size: 25px;
-
 }
 
 /* PAGINA DE INICIO */
@@ -217,6 +213,9 @@ button {
    
 /* PAGINA DE CONTACTO */
 
+.titulo_formulario{
+    margin-top: 80px;
+}
 .titulo_formulario h1{
     display: flex;
     flex-direction: row;
@@ -235,7 +234,6 @@ button {
     color: #003366;
     font-size: 20px;
     margin-top: 20px;
-    display: block;
     flex-direction: row;
     justify-content: center;
     align-items: center
