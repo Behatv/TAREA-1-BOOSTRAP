@@ -92,7 +92,7 @@ body{
 }
 
 .barra_redes_nueva h1{
-    font-size: 24px;
+    font-size: 23px;
     color: #003366
 }
 
@@ -102,9 +102,6 @@ body{
     justify-content: center;
     align-items: center;
 
-}
-.col-md-3 ul li{
-    list-style: none;  /* para quitarle el puntito al coso de la lista  */
 }
 
 .col-md-3 a{
@@ -113,29 +110,18 @@ body{
     color: #003366
 }
 
-.col-md-3{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .col-md-3 ul li{
     list-style: none;  
 }
-.col-md-3 a{
-    text-decoration: none; 
-    font-size: 20px;
-    color: #003366
-}
 
-.col-md-2{
+.col-md-1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.col-md-2 ul li{
+
+.col-md-1 ul li{
     list-style: none;  /* para quitarle el puntito al coso de la lista  */
 }
 .logo_redes1 img{
@@ -143,14 +129,15 @@ body{
     height: 60px;
     gap: 20px;
 }
-.col-md-3{
+
+.col-md-4{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.col-md-3 ul li{
-    list-style: none;  /* para quitarle el puntito al coso de la lista  */
+    padding: 28px;
+    margin: auto;
+
 }
 
 .nombre_empresa_abajo{
