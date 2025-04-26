@@ -323,25 +323,76 @@ button {
 
 /* PAGINA DE NOSOTROS NUEVA*/
 
-
-.clearfix img{
+.card_nosotros_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    width: 87%;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+.card_nosotros_2 img{
+    height: 400px;
     width: 50%;
-    height: 300px;
     border-radius: 8px;
 }
 
-.cards_nosotros{
+
+.card_y_texto_2 img{
+    margin-top: 20px;
+    border: #000000 2px solid;
+    width: 40%;
+}
+.card_y_texto_2 p{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+    font-size: 20px;
+    color: #003366;
+    border: #000000 2px solid;
+    width: 30%;
+    gap: 20px;
+    padding: 30px;
+
 }
 
-.cards_nosotros a{
+
+.scrolL_NOSOTROS{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 20px;
+
+}
+.scrolL_NOSOTROS p{
+    font-size: 20px;
+    color: #003366;
+    margin: 0;
+    padding: 0;
+}
+
+.aaa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid #000000;
+}
+
+.card_prueba img{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    border: #000000 2px solid;
 
 }
