@@ -29,8 +29,77 @@
                                 <a class="nav-link active" aria-current="page" href="contacto.html">CONTACTO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="login.html">LOGIN</a>
-                            </li>
+                              <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+                                  LOGIN
+                              </a>
+                          </li>
+                          
+                          <!-- Aquí van tus modales fuera de los <li> -->
+                          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel"> INICIAR SESION</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <div class="login_iniciar_sesion">
+                                    <div class="datos_iniciar_sesion">
+                                        <h1>OTAKAR AGENCY</h1>
+                                        <h3>Ingrese sus credenciales de inicio de sesión</h3>
+                                
+                                        <form action="">
+                                            <label for="first">
+                                                Nombre de usuario:
+                                            </label>
+                                            <input type="text" id="first" name="first" 
+                                                placeholder="Ingrese su Usuario" required>
+                                
+                                            <label for="password">
+                                                Contraseña:
+                                            </label>
+                                            <input type="password" id="password" name="password" 
+                                                placeholder="Ingrese su Contraseña" required>
+                                
+                                            <div class="wrap">
+                                                <button type="submit">
+                                                    Enviar
+                                                </button>
+                                            </div>
+                                        </form>
+                                        
+                                        <p>¿No estás registrado?
+                                            <a href="#" style="text-decoration: none;">
+                                                Crea una cuenta
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                  
+                                </div>
+                                <div class="modal-footer">
+                                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">ENVIAR</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                  Hide this modal and show the first with the button below.
+                                </div>
+                                <div class="modal-footer">
+                                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="nosotros.html">NOSOTROS</a>
                             </li>

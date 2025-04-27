@@ -476,3 +476,11 @@ button {
     align-items: center;
 }
 
+.modal_login button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    border: #000000 2px solid;
+
+}
