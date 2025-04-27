@@ -126,50 +126,149 @@
         </div>
 
 
+        <div class="tabla_destinos2">
+            <div class="container-lg"> <!--tabla que va a tener los paises con sus ciudades mas visitadas y dentro de eso va a tener otras recomendaciones -->
+                <div class="row">
+                    <div class="col">
+                        <div class="tabla_destinos">
+                            <table class="table table-striped-columns" border="4">
+                                <thead>
+                                  <tr class="fila1">
+                                    <th scope="col">País</th>
+                                    <th scope="col">Ciudad Principal</th>
+                                    <th scope="col">Atracción Destacada</th>
+                                    <th scope="col">Precio Desde</th>
+                                    <th scope="col">Otras ciudades</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">Francia</th>
+                                    <td>	París</td>
+                                    <td>Torre Eiffel</td>
+                                    <td>USD 1.200</td>
+                                    <td>
+    
+                                        <div class="boton_enviar1">
+                                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFrancia">
+                                              Enviar
+                                            </button>
+                                          </div>
+                                          
+                                          <!-- Modal Francia -->
+                                          <div class="modal fade" id="modalFrancia" tabindex="-1" aria-labelledby="modalFranciaLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                              <div class="modal-content">
+                                                <div class="titulo_vermas">
+                                                    <div class="modal-header">
+                                                        <h1 class="modal-title fs-5" id="modalFranciaLabel"><h2>Francia</h2></h1>
+                                                      </div>
+                                                </div>
 
-        <div class="container-lg"> <!--tabla que va a tener los paises con sus ciudades mas visitadas y dentro de eso va a tener otras recomendaciones -->
-            <div class="row">
-                <div class="col">
-                    <div class="tabla_destinos">
-                        <table class="table table-striped-columns" border="4">
-                            <thead>
-                              <tr class="fila1">
-                                <th scope="col">País</th>
-                                <th scope="col">Ciudad Principal</th>
-                                <th scope="col">Atracción Destacada</th>
-                                <th scope="col">Precio Desde</th>
-                                <th scope="col">Otras ciudades</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <th scope="row">Francia</th>
-                                <td>	París</td>
-                                <td>Torre Eiffel</td>
-                                <td>USD 1.200</td>
-                                <td>Ver mas</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">Japón</th>
-                                <td>Tokio</td>
-                                <td>	Templo Sensoji</td>
-                                <td>USD 1.800</td>
-                                <td>Ver mas</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">Italia</th>
-                                <td>Roma</td>
-                                <td>Coliseo Romano</td>
-                                <td>	USD 1.300</td>
-                                <td>Ver mas</td>
-                              </tr>
-                            </tbody>
-                        </table>
+                                                <div class="modal-body">
+                                                    <h4>Niza</h4>
+    
+                                                    <p>Atracción: Paseo de los Ingleses (Promenade des Anglais), un hermoso paseo marítimo a orillas del Mediterráneo, perfecto para caminar, andar en bicicleta y disfrutar de la playa.</p>
+                                                    
+                                                    <h4> Estrasburgo</h4>
+                                                    <p>Atracción: Catedral de Notre-Dame de Estrasburgo, una impresionante catedral gótica considerada una de las más bellas de Europa, con su famoso reloj astronómico.
+                                                    </p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Japón</th>
+                                    <td>Tokio</td>
+                                    <td>	Templo Sensoji</td>
+                                    <td>USD 1.800</td>
+                                    <td>                                    <!-- Button trigger modal -->
+                                        <div class="boton_enviar1">
+                                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalJapon">
+                                              Enviar
+                                            </button>
+                                          </div>
+                                          
+                                          <!-- Modal Japón -->
+                                          <div class="modal fade" id="modalJapon" tabindex="-1" aria-labelledby="modalJaponLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                              <div class="modal-content">
+                                                <div class="titulo_vermas">
+                                                    <div class="modal-header">
+                                                        <h1 class="modal-title fs-5" id="modalFranciaLabel"><h2>Japon</h2></h1>
+                                                      </div>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <h4>Kioto</h4>
+    
+                                                    <p>Atracción: Templo Fushimi Inari-taisha, famoso por sus miles de puertas torii rojas que forman caminos mágicos a través del bosque..</p>
+                                                    
+                                                    <h4> Osaka</h4>
+                                                    <p>Atracción: Castillo de Osaka, uno de los castillos más emblemáticos de Japón, rodeado de hermosos jardines y con una historia fascinante.
+                                                    </p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Italia</th>
+                                    <td>Roma</td>
+                                    <td>Coliseo Romano</td>
+                                    <td>	USD 1.300</td>
+                                    <td>                                    <!-- Button trigger modal -->
+                                        <div class="boton_enviar1">
+                                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalItalia">
+                                              Enviar
+                                            </button>
+                                          </div>
+                                          
+                                          <!-- Modal Italia -->
+                                          <div class="modal fade" id="modalItalia" tabindex="-1" aria-labelledby="modalItaliaLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                              <div class="modal-content">
+                                                
+                                                <div class="titulo_vermas">
+                                                    <div class="modal-header">
+                                                        <h1 class="modal-title fs-5" id="modalFranciaLabel"><h2>Italia</h2></h1>
+                                                      </div>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                  <h4>Florencia</h4>
+                                                  <p>Atracción: Catedral de Santa María del Fiore, famosa por su enorme cúpula diseñada por Brunelleschi, símbolo del Renacimiento italiano.</p>
+                                                  
+                                                  <h4>Venecia</h4>
+                                                  <p>Atracción: Plaza de San Marcos y el Gran Canal, donde puedes pasear en góndola y disfrutar de la arquitectura histórica.</p>
+                                                </div>
+                                                
+                                                <div class="modal-footer">
+                                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                                </div>
+                                          
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        
 
 
         <div class="container-fluid card_de_abajo1 d-flex gap-3">

@@ -389,6 +389,22 @@ button {
     align-items: center;
 }
 
+.titulo_vermas{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.titulo_vermas h2{
+    color: #003366;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 .card_de_abajo1{
     display: flex;
     flex-direction: row;
@@ -453,5 +469,10 @@ button {
     gap: 20px;
 }
 
-
+.boton_enviar1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
