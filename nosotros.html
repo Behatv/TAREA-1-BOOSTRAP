@@ -12,111 +12,85 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <header>
-        <div class="container-fluid">
-            <div class="row"> 
-                <div class="col-12" >
-                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                        <a class="navbar-brand"><img src="imagenes/logo.jpg"> </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="inicio.html">INICIO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="contacto.html">CONTACTO</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
-                                  LOGIN
-                              </a>
-                          </li>
-                          
-                          <!-- Aquí van tus modales fuera de los <li> -->
-                          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                            <div class="modal-dialog modal-dialog-centered">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel"> INICIAR SESION</h1>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <div class="login_iniciar_sesion">
-                                    <div class="datos_iniciar_sesion">
-                                        <h1>OTAKAR AGENCY</h1>
-                                        <h3>Ingrese sus credenciales de inicio de sesión</h3>
-                                
-                                        <form action="">
-                                            <label for="first">
-                                                Nombre de usuario:
-                                            </label>
-                                            <input type="text" id="first" name="first" 
-                                                placeholder="Ingrese su Usuario" required>
-                                
-                                            <label for="password">
-                                                Contraseña:
-                                            </label>
-                                            <input type="password" id="password" name="password" 
-                                                placeholder="Ingrese su Contraseña" required>
-                                
-                                            <div class="wrap">
-                                                <button type="submit">
-                                                    Enviar
-                                                </button>
-                                            </div>
-                                        </form>
-                                        
-                                        <p>¿No estás registrado?
-                                            <a href="#" style="text-decoration: none;">
-                                                Crea una cuenta
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                                  
-                                </div>
-                                <div class="modal-footer">
-                                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">ENVIAR</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          
-                          <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                            <div class="modal-dialog modal-dialog-centered">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-                                </div>
-                                <div class="modal-body">
-                                  Hide this modal and show the first with the button below.
-                                </div>
-                                <div class="modal-footer">
-                                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="nosotros.html">NOSOTROS</a>
-                            </li>
-                            </ul>
-                            <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                            <button class="btn btn-outline-success configuracion_boton" type="submit" style="--bs-btn-color: #003366; --bs-btn-border-color: #003366; --bs-btn-hover-color: #fff; --bs-btn-hover-bg: #003366; --bs-btn-hover-border-color: #003366; --bs-btn-focus-shadow-rgb: 0, 51, 102; --bs-btn-active-color: #fff; --bs-btn-active-bg: #003366; --bs-btn-active-border-color: #003366; --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); --bs-btn-disabled-color: #003366; --bs-btn-disabled-bg: transparent; --bs-btn-disabled-border-color: #003366; --bs-gradient: none;">Buscar</button>
+      <div class="container-fluid">
+          <div class="row"> 
+              <div class="col-12">
+                  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                      <a class="navbar-brand" href="#"><img src="imagenes/logo.jpg" alt="Logo"></a>
+  
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+  
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <!-- menu de navegación -->
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                  <a class="nav-link active" href="inicio.html">INICIO</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link active" href="contacto.html">CONTACTO</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">LOGIN</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link active" href="nosotros.html">NOSOTROS</a>
+                              </li>
+                          </ul>
+  
+                          <!-- buscador  -->
+                          <form class="d-flex" role="search">
+                              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                              <button class="btn btn-outline-success configuracion_boton" type="submit" 
+                                  style="--bs-btn-color: #003366; --bs-btn-border-color: #003366; --bs-btn-hover-color: #fff; --bs-btn-hover-bg: #003366; --bs-btn-hover-border-color: #003366; --bs-btn-focus-shadow-rgb: 0, 51, 102; --bs-btn-active-color: #fff; --bs-btn-active-bg: #003366; --bs-btn-active-border-color: #003366; --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); --bs-btn-disabled-color: #003366; --bs-btn-disabled-bg: transparent; --bs-btn-disabled-border-color: #003366; --bs-gradient: none;">
+                                  Buscar
+                              </button>
+                          </form>
+                      </div>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  
+      <!-- Modal LOGIN -->
+      <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalToggleLabel">INICIAR SESIÓN</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                      <form>
 
-                            </form>
-                            
-                        </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div> 
-    </header>
+                          <div class="form-floating">
+                              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                              <label for="floatingInput">Correo Electronico</label>
+                          </div>
+                          <div class="form-floating">
+                              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                              <label for="floatingPassword">Contraseña</label>
+                          </div>
+  
+                          <div class="form-check text-start my-3">
+                              <input class="form-check-input" type="checkbox" value="remember-me" id="checkDefault">
+                              <label class="form-check-label" for="checkDefault">
+                                  Recordar
+                              </label>
+                          </div>
+                          <button class="btn btn-primary w-100 py-2" type="submit">Iniciar Sesion</button>
+                      </form>
+                  </div>
+                  
+                  <div class="modal-footer">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
+  
 
     <main>
         
