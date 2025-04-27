@@ -335,6 +335,11 @@ button {
     width: 50%;
     border-radius: 8px;
 }
+.card_nosotros_2 p{
+    font-size: 20px;
+
+
+}
 
 
 .card_y_texto_2 img{
@@ -383,6 +388,14 @@ button {
 
 }
 
+.tabla_destinos2 th{
+    font-size: 20px;
+}
+
+.tabla_destinos2 td{
+    font-size: 20px;
+
+}
 .fila1 th{
     text-align: center;
     justify-content: center;
@@ -410,6 +423,15 @@ button {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 50px;
+}
+.card_de_abajo1 p{
+    font-size: 20px;
+    color: #003366;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+
 }
 .imagen_card1 {
     display: flex;
@@ -451,24 +473,6 @@ button {
 }
 
 
-
-.barra_redes_2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    border: #000000 2px solid;
-    margin: auto;
-}
-
-.logo_redes2 img{
-    width: 110px;
-    height: 50px;
-    gap: 20px;
-}
-
 .boton_enviar1{
     display: flex;
     flex-direction: row;
@@ -484,3 +488,49 @@ button {
     border: #000000 2px solid;
 
 }
+.beneficios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+}
+.imagen_card2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 18px;
+}
+
+.imagen_card2 img{
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    margin-top: 20px;
+}
+.beneficios h5{
+    font-size: 24px;
+    color: #003366;
+}
+
+.beneficios p{
+    font-size: 21px;
+    color: #003366;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.negrita{
+    font-weight: 510;
+    color: #003366;
+}
+
